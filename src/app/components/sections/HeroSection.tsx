@@ -1,8 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
-import { DocumentTextIcon, ChatBubbleBottomCenterTextIcon } from '@heroicons/react/24/outline';
+
 
 export default function HeroSection() {
   return (
@@ -17,7 +16,7 @@ export default function HeroSection() {
           quality={100}
         />
       </div>
-    
+
       <div className="absolute top-0 left-0 w-full h-full bg-black/30" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center">

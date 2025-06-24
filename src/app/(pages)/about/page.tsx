@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 import { useTheme } from '../../context/ThemeContext';
 import AboutFounder from '../../components/sections/AboutFounder';
 import AboutValues from '../../components/sections/AboutValues';
-import AboutVision from '../../components/sections/AboutVision';
-import AboutQuote from '../../components/sections/AboutQuote';
+// import AboutVision from '../../components/sections/AboutVision';
+// import AboutQuote from '../../components/sections/AboutQuote';
 
 export default function AboutPage() {
   const { setMenuStyle } = useTheme();

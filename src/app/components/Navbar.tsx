@@ -11,7 +11,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
-  const { menuBgColor, menuBgOpacity, textColor } = useTheme();
+  const { menuBgColor, textColor } = useTheme();
   const pathname = usePathname();
 
   const isActive = (path: string) => {
